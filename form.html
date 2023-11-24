@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>Enter Form Data</h1>
+    <fieldset>
+        <legend>Contact Information</legend>
+        <label>Name: </label>
+        <input list="name" type="text">
+        <datalist id="name"></datalist>
+
+        <label>E-mail:</label>
+        <input list="e-mail" type="email">
+        <datalist id="e-mail"></datalist>
+
+        <label>Phone Number: </label>
+        <input type="text" placeholder="123-46-7890">
+
+        <label>Birthdate: </label>
+        <input type="date">
+        
+        <label>Gender: </label>
+        <select name="gender" id="gender">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+            <option value="O">Other</option>
+            <option value="NA">Do not disclose</option>
+
+        </select>
+        
+    </fieldset>
+    
+    <fieldset>
+        <legend>Message and Preferences</legend>
+
+        <label>Message: </label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter a message"></textarea>
+    
+        <label >Subscribe to newsletter</label>
+        <input type="checkbox">
+
+        <label >Upload file: </label>
+        <input type="file" >
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Preferred Contact Method: </legend>
+        
+        <input type="radio" name="email" id="email"> <label>E-mail</label>
+        <input type="radio" name="email" id="email"> <label>Phone</label>
+    </fieldset>
+
+    <label>Password: </label>
+    <input type="password">
+
+    <label>Confirm Password: </label>
+    <input type="password">
+
+    <br><br>
+
+    <label>Click <a href="">here</a> to view table.</label>
+    <br>
+    <div><button>Submit</button></div>
+</form>   
+</body>
+</html>
