@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+ <body>
+    <div>
+      <h1>Enter form data</h1>
+    </div>
+    <div>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label>Name: </label>
+        <input type="text" placeholder="Enter your name"/>
+        <label>Email:</label>
+        <input type="text" placeholder="Enter your email"/>
+        <label>Phone Number:</label>
+        <input type="text" placeholder="123-456-7890"/>
+        <label>Birthdate:</label>
+        <input type="date"/>
+        <label>Gender:</label>
+        <input type="text" list="Gender"/>
+        <datalist id="Gender">
+          <option value = "Male"></option>
+          <option value = "Female"></option>
+          <option value="Others"></option>
+        </datalist>
+      </fieldset>
+    </div>
+<div>
+<fieldset>
+        <legend>Message and Preferences</legend>
+
+        <label>Message: </label>
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter a message"></textarea>
+    
+        <label >Subscribe to newsletter</label>
+        <input type="checkbox">
+
+        <label >Upload file: </label>
+        <input type="file" >
+ </fieldset>
+</div>
+
+    <fieldset>
+        <legend>Preferred Contact Method: </legend>
+        
+        <input type="radio" name="email" id="email"> <label>E-mail</label>
+        <input type="radio" name="email" id="email"> <label>Phone</label>
+    </fieldset>
+    <fieldset>
+      <legend>Password</legend>
+
+    <label>Password: </label>
+    <input type="password">
+
+    <label>Confirm Password: </label>
+    <input type="password">
+    </fieldset>
+
+    <br><br>
+
+    <label>Click <a href="">here</a> to view table.</label>
+  <div><button>Submit</button></div>
+
+
+   
+    
+  </body>
+</html>

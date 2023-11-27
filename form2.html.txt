@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>Form</head>
+  <body>
+    <div>
+      <h1>Enter form data</h1>
+    </div>
+    <div>
+      <fieldset>
+        <legend>Contact Information</legend>
+        <label>Name: </label>
+        <input type="text" placeholder="Enter your name"/>
+        <label>Email:</label>
+        <input type="text" placeholder="Enter your email"/>
+        <label>Phone Number:</label>
+        <input type="text" placeholder="123-456-7890"/>
+        <label>Birthdate:</label>
+        <input type="date"/>
+        <label>Gender:</label>
+        <input type="text" list="Gender"/>
+        <datalist id="Gender">
+          <option value = "Male"></option>
+          <option value = "Female"></option>
+          <option value="Others"></option>
+        </datalist>
+      </fieldset>
+    </div>
+   
+    
+  </body>
+</html>
