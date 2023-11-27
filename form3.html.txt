@@ -57,7 +57,7 @@
 
     <br><br>
 
-    <label>Click <a href="">here</a> to view table.</label>
+    <label>Click <a href="submitted.html">here</a> to view table.</label>
   <div><button>Submit</button></div>
 
 
